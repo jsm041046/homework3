@@ -35,9 +35,10 @@ int main() {
     printf("st3.grade = %c\n", st3.grade); //student2형 st3의 grade를 출력
 
     if(st3.lastName == st2.lastName && st3.studentId == st2.studentId && st3.grade == st2.grade) //해결법으로 각각의 인수를 비교한다
-        printf("equal\n");
+        printf("equal\n"); //같으면 출력
     else
-        printf("not equal\n");
+        printf("not equal\n"); //같지 않으면 출력
+    printf("[----- 전설민 2021041046 -----]\n"); //이름 학번 출력
     return 0;
 }
 

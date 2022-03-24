@@ -8,6 +8,7 @@ void main()
     printf("sizeof(x) = %lu\n", sizeof(x)); //이중 포인터 x가 가지는 메모리 용량을 출력한다
     printf("sizeof(*x) = %lu\n", sizeof(*x)); //이중 포인터 x의 참조값이 가지는 메모리 용량을 출력한다
     printf("sizeof(**x) = %lu\n", sizeof(**x)); //이중 포인터 x의 이중 참조값이 가지는 메모리 용량을 출력한다
+    printf("[----- 전설민 2021041046 -----]\n"); //이름 학번 출력
 }
 
 /*

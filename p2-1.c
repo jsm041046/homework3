@@ -14,6 +14,7 @@ void main(void)
 
     answer = sum(input, MAX_SIZE); //함수 sum에 input 배열 이름과 MAX_SIZE(100)를 인수로 넣고 결과값을 answer에 대입
     printf("The sum is: %f\n", answer); //float형 변수 asnwer 출력
+    printf("[----- 전설민 2021041046 -----]\n"); //이름 학번 출력
 }
 
 float sum(float list[], int n) //함수 sum정의, 매개변수는 float 배열 이름(포인터)과 int형 변수

@@ -35,6 +35,7 @@ void main()
     printf("plist[3]           = %p\n",plist[3]); //plist[3]의 값 출력
     printf("plist[4]           = %p\n",plist[4]); //plist[4]의 값 출력
 
+    printf("[----- 전설민 2021041046 -----]"); //이름 학번 출력
     free(plist[0]); //동적할당된 plist[0]위치의 할당을 해제
 }
 

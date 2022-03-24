@@ -14,7 +14,8 @@ int main()
     printf("size of student = %ld\n", sizeof(struct student)); //student형태가 차지하는 메모리 크기 출력
     printf("size of int = %ld\n", sizeof(int)); //int형이 차지하는 메모리 크기 출력
     printf("size of short = %ld\n", sizeof(short)); //short형이 차지하는 메모리 크기 출력
-
+    printf("[----- 전설민 2021041046 -----]\n"); //이름 학번 출력
+    
     return 0;
 }
 
